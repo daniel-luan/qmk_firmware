@@ -27,8 +27,14 @@
         "rows": ["F4", "F1", "F0", "C7", "B6"]
     },
     "diode_direction": "COL2ROW",
+    "indicators": {
+        "caps_lock": "B0"
+    },
     "split": {
         "enabled": true,
+        "handedness": {
+            "pin": "D5"
+        },
         "soft_serial_pin": "D0",
         "matrix_pins": {
             "right": {
